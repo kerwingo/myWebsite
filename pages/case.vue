@@ -2,7 +2,7 @@
  * @Description: Description
  * @Author: Kerwin
  * @Date: 2022-12-25 18:42:58
- * @LastEditTime: 2022-12-25 22:45:13
+ * @LastEditTime: 2022-12-25 22:52:22
  * @LastEditors:  Please set LastEditors
 -->
 <template>
@@ -280,5 +280,10 @@ export default {
 .item:hover .applet {
   opacity: 1;
   visibility: visible;
+}
+@media screen and (max-width:640px) {
+  .item {
+    max-width: 100%;
+  }
 }
 </style>
