@@ -1,5 +1,5 @@
-import { resolve } from 'path'
-import components from "./config/components"
+import { resolve } from "path";
+import components from "./config/components";
 
 export default {
   /*alias: {
@@ -10,7 +10,7 @@ export default {
     extractCSS: true,
   },
   buildModules: ["@nuxtjs/dotenv"],
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/vuetify"],
   env: {
     TEST: process.env.TEST,
   },
@@ -31,7 +31,17 @@ export default {
         content: "前端,前端技术,nuxtjs,vuejs,reactjs,javascript,nestjs,nodejs",
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "nuxt_64x.png" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "nuxt_64x.png" },
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
+      },
+    ],
   },
   noscript: [{ innerHTML: "This website requires JavaScript." }],
   tailwindcss: {
