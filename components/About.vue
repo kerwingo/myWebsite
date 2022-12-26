@@ -15,7 +15,7 @@
         <a
           href="https://www.google.com/search?q=turkey"
           target="_blank"
-          class="border-b-2 border-gray-500 border-opacity-40 hover:border-opacity-70"
+          class="border-b-2 border-gray-500  border-opacity-40 hover:border-opacity-70"
           >Chengdu,China</a
         >.
       </p>
@@ -46,7 +46,7 @@
         And last but not least, please don't hesitate to
         <a
           href="/contact"
-          class="border-b-2 border-gray-500 border-opacity-40 hover:border-opacity-70"
+          class="border-b-2 border-gray-500  border-opacity-40 hover:border-opacity-70"
           >contact me</a
         >!
       </p>
@@ -123,11 +123,15 @@ export default {
         {
           name: "Nest.js",
           link: "https://nestjs.com/",
-            },
-            {
-                name: "React.js",
-                link:"https://reactjs.org"
-            }
+        },
+        {
+          name: "React.js",
+          link: "https://reactjs.org",
+        },
+        {
+          name: "Uniapp",
+          link: "https://uniapp.dcloud.net.cn/",
+        },
       ],
     };
   },

@@ -2,7 +2,7 @@
  * @Description: Description
  * @Author: Kerwin
  * @Date: 2022-12-25 18:42:58
- * @LastEditTime: 2022-12-25 22:52:22
+ * @LastEditTime: 2022-12-26 14:52:13
  * @LastEditors:  Please set LastEditors
 -->
 <template>
@@ -111,6 +111,22 @@ export default {
           tags: "H5",
           type: 2,
         },
+        {
+          name: "脑悦康",
+          imgUrl:
+            "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/b64beaa1-9c2c-4699-a48c-b6131af23ead.jpg",
+          url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/9a7d18a0-b976-45b0-b6c9-0f028fe86f1b.png",
+          tags: "小程序",
+          type: 2,
+        },
+        {
+          name: "LS乐饰",
+          imgUrl:
+            "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/3676a942-c4fd-4747-b0b0-115a81218f49.jpg",
+          url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/3bd77e39-2a20-4d77-bc0a-a5d988d9e0e2.png",
+          tags: "小程序",
+          type: 2,
+        },
         // {
         //   name: "招聘登记",
         //   imgUrl:
@@ -133,7 +149,7 @@ export default {
 }
 .item {
   position: relative;
-  max-width: 48%;
+  max-width: calc((100% - 24px) / 2);
 }
 .item figure {
   position: relative;
@@ -227,13 +243,7 @@ export default {
 .item:hover .brand-wrs i {
   transition-delay: 0.2s;
 }
-@media screen and (max-width: 1450px) {
-  .brand-sj {
-    bottom: 18px;
-    left: 18px;
-    right: 18px;
-  }
-}
+
 .applet {
   position: absolute;
   left: 0;
@@ -281,7 +291,17 @@ export default {
   opacity: 1;
   visibility: visible;
 }
-@media screen and (max-width:640px) {
+@media screen and (max-width: 1024px) {
+  .item {
+    max-width: 100%;
+  }
+  .brand-sj {
+    bottom: 18px;
+    left: 18px;
+    right: 18px;
+  }
+}
+@media screen and (max-width: 640px) {
   .item {
     max-width: 100%;
   }
