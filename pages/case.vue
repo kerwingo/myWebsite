@@ -2,7 +2,7 @@
  * @Description: Description
  * @Author: Kerwin
  * @Date: 2022-12-25 18:42:58
- * @LastEditTime: 2022-12-26 14:52:13
+ * @LastEditTime: 2022-12-28 17:40:00
  * @LastEditors:  Please set LastEditors
 -->
 <template>
@@ -182,7 +182,6 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 14px;
-  background: rgba(0, 0, 0, 0.4);
   opacity: 1;
   visibility: visible;
   -webkit-transition: 0.5s;
@@ -229,6 +228,7 @@ export default {
 .item:hover .brand-infos:before {
   opacity: 1;
   visibility: visible;
+  background: rgba(0, 0, 0, 0.4);
 }
 .item:hover .brand-infos1 .applet {
   opacity: 1;
