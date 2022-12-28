@@ -14,7 +14,7 @@
     >
     <a href="javascript:;" class="mt-4 mr-2 rounded-full generalBtn"
       ><p class="p-3 generalBtnText smallText opacity-80" @click="wakeWx">
-        WeChat
+        WeChat：kerwin1727
       </p>
       <input type="text" id="chatNum" value="kerwin1727" class="inpt"
     /></a>
