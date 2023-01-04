@@ -2,7 +2,7 @@
  * @Description: Description
  * @Author: Kerwin
  * @Date: 2022-12-28 16:19:07
- * @LastEditTime: 2022-12-28 17:35:04
+ * @LastEditTime: 2023-01-04 12:05:54
  * @LastEditors:  Please set LastEditors
 -->
 <template>
@@ -79,6 +79,22 @@ export default {
       ],
       tool: [
         {
+          name: "一元超市VPN 翻墙必备",
+          imgUrl:
+            "https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361__340.jpg",
+          url: "https://xn--4gq62f52gdss.com/#/register?code=K2MNSY9m",
+          tags: "Tool",
+          type: 2,
+        },
+        {
+          name: "meimeiyun VPN 翻墙必备",
+          imgUrl:
+            "https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361__340.jpg",
+          url: "https://www.meimeiyun.top/",
+          tags: "Tool",
+          type: 2,
+        },
+        {
           name: "抠图工具",
           imgUrl:
             "https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361__340.jpg",
@@ -91,6 +107,14 @@ export default {
           imgUrl:
             "https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361__340.jpg",
           url: "https://www.zhihu.com/question/265481379",
+          tags: "Tool",
+          type: 2,
+        },
+        {
+          name: "Tiny Helpers",
+          imgUrl:
+            "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/bc374a9a-3f5b-4a7a-8fbb-41049d862ecd.png",
+          url: "https://tiny-helpers.dev/",
           tags: "Tool",
           type: 2,
         },
