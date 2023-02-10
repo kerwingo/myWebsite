@@ -2,7 +2,7 @@
  * @Description: Description
  * @Author: Kerwin
  * @Date: 2022-12-25 18:42:58
- * @LastEditTime: 2022-12-28 17:40:00
+ * @LastEditTime: 2023-02-01 09:34:03
  * @LastEditors:  Please set LastEditors
 -->
 <template>
@@ -54,6 +54,15 @@ export default {
     return {
       products: [
         {
+          name: "天富管理后台",
+          imgUrl:
+            "https://www.symansbon.cn/Uploadfiles/Picture/2021-8-9/202189174826134.jpg",
+          url: "http://ttfwap.yishengyue.cn/tf-operation/index.html",
+          tags: "官网",
+          type: 1,
+          
+        },
+        {
           name: "术妍印象美容服务",
           imgUrl:
             "https://www.symansbon.cn/Uploadfiles/Picture/2021-8-9/202189174826134.jpg",
@@ -95,6 +104,22 @@ export default {
         },
       ],
       xcx: [
+         {
+          name: "脑悦康",
+          imgUrl:
+            "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/b64beaa1-9c2c-4699-a48c-b6131af23ead.jpg",
+          url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/9a7d18a0-b976-45b0-b6c9-0f028fe86f1b.png",
+          tags: "小程序",
+          type: 2,
+        },
+        {
+          name: "LS乐饰",
+          imgUrl:
+            "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/3676a942-c4fd-4747-b0b0-115a81218f49.jpg",
+          url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/3bd77e39-2a20-4d77-bc0a-a5d988d9e0e2.png",
+          tags: "小程序",
+          type: 2,
+        },
         {
           name: "蜜蛋店铺",
           imgUrl:
@@ -111,22 +136,7 @@ export default {
           tags: "H5",
           type: 2,
         },
-        {
-          name: "脑悦康",
-          imgUrl:
-            "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/b64beaa1-9c2c-4699-a48c-b6131af23ead.jpg",
-          url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/9a7d18a0-b976-45b0-b6c9-0f028fe86f1b.png",
-          tags: "小程序",
-          type: 2,
-        },
-        {
-          name: "LS乐饰",
-          imgUrl:
-            "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/3676a942-c4fd-4747-b0b0-115a81218f49.jpg",
-          url: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-7ea61f24-4b09-4924-abb9-e53121c80e16/3bd77e39-2a20-4d77-bc0a-a5d988d9e0e2.png",
-          tags: "小程序",
-          type: 2,
-        },
+       
         // {
         //   name: "招聘登记",
         //   imgUrl:

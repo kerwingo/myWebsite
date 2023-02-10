@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar padding mt-9">
+  <div class="navbar padding mt-9" v-if="show">
     <p
       class="mr-5 navbarBtn thinText display-inline-block"
       v-for="item in menus"
@@ -23,8 +23,15 @@ export default {
       },
     },
   },
+  mounted() {
+    const { query } = this.$route;
+    if (query.hid) {  //做一个导航栏的开关
+      this.show = false;
+    }
+  },
   data() {
     return {
+      show: true,
       path: "/",
       menus: [
         {
